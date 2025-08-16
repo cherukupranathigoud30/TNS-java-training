@@ -1,0 +1,14 @@
+package accessmodifierdemo;
+
+public class modifiermain {
+
+	public static void main(String[] args) {
+		
+		accessmodifierdemo ob=new accessmodifierdemo();
+		ob.num=13;
+		ob.num2=45;
+		ob.number=5;
+		ob.num4=78;
+	}
+
+}

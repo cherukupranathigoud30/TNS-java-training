@@ -1,0 +1,27 @@
+package conser;
+
+public class ForLoopDemo {
+
+	public static void main(String[] args) {
+		//for integer array
+		int a[]= {10,20,30,40,50};
+			for(int a1:a) 
+			{
+				System.out.println(a1);
+			}
+			char ch[]= {'m','y','n','a','m','e'};
+			 for(char c:ch)
+			 {
+				 
+				 System.out.println(c);
+				 
+			 }
+			 System.out.println(" ");
+			 String s[]= {"happy","birthday","to","you"};
+			 for(String s1:s) 
+			 {
+				 System.out.println(s1 +" ");
+			 }
+				 
+}
+}

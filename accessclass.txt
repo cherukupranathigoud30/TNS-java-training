@@ -1,0 +1,11 @@
+package accessmodifierdemo;
+
+public class accessmodifierdemo {
+	public int num;
+	public int num2;
+	public int number;
+	public	int num4;
+		void print() {
+		System.out.println("The values are" +num+ " " +num2+ " " +number+ " " +num4);
+		}
+}

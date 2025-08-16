@@ -1,0 +1,17 @@
+package ifelsedemo;
+
+public class ifelsedemo {
+
+	public static void main(String[] args) {
+		int y= 100;
+		if(y!=100)
+			System.out.println("Its not expected ");
+			
+			else
+				System.out.println("this is never expected ");
+	}
+
+	
+	}
+
+

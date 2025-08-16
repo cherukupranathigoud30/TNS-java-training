@@ -1,0 +1,13 @@
+package conser;
+
+public class Whileloop {
+
+	public static void main(String[] args) {
+		int i=98;
+		while(i<=1000) {
+		System.out.println(i);
+		i++;
+		}
+	}
+
+}

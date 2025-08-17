@@ -1,0 +1,17 @@
+package encapsulationDemo;
+
+public class encapsulationMain {
+
+	public static void main(String[] args) {
+		
+		encapsulationDemo obj=new encapsulationDemo();
+		obj.setSid(109);
+		obj.setSname("jdf");
+		System.out.println(obj.getSid());
+		System.out.println(obj.getSname());
+//		obj.getSid();
+//		obj.setSname("kavya");
+//		obj.getSname();
+	}
+
+}

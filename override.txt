@@ -1,0 +1,41 @@
+package conser;
+
+public class Animal {
+	public class Animals {
+	    static class Dog {
+	        public void eat() {
+	            System.out.println("Eating");
+	        }
+	        public void sounds() {
+	            System.out.println("the dog barks");
+	        }
+	    }
+
+	    static class Cow extends Dog {
+	        public void sounds() {
+	            System.out.println("the cow says moh moh");
+	        }
+	    }
+
+	    static class Horse extends Dog {
+	        public void sounds() {
+	            System.out.println("the horse says neigh neigh");
+	        }
+	    }
+
+	    public static void main(String[] args) {
+	        Dog d = new Dog();   
+	        d.eat();
+	        d.sounds();
+
+	        Cow c = new Cow();
+	        c.sounds();
+	        c.eat();
+
+	        Horse h = new Horse();
+	        h.eat();
+	        h.sounds();
+	    }
+	}
+
+}

@@ -1,0 +1,17 @@
+package com.tns.ListDemo;
+
+import java.util.ArrayList; // You forgot to import this class
+
+public class ListDemo {
+
+    public static void main(String[] args) {
+        // wrapper class in generic
+        // int-->Integer // float-->Float
+        ArrayList<Integer> al = new ArrayList<>(); // Correct instantiation
+        al.add(10);
+        al.add(34);
+        al.add(78);
+
+        System.out.println(al);
+    }
+}

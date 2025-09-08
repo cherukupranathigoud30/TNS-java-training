@@ -1,0 +1,19 @@
+package com.tns.linkedlist;
+import java.util.LinkedList;  // Import LinkedList
+public class Linkedlist {
+
+	public static void main(String[] args) {
+		
+		        // wrapper class in generic
+		        // int-->Integer // float-->Float
+		        LinkedList<Integer> al = new LinkedList<>(); // Using LinkedList
+		        al.add(10);
+		        al.add(34);
+		        al.add(78);
+
+		        System.out.println(al);
+		    }
+		
+
+	}
+

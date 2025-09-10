@@ -1,0 +1,21 @@
+package com.tns.priority;
+
+import java.util.Queue;
+import java.util.PriorityQueue;
+
+public class QueueDemo {
+
+    public static void main(String[] args) {
+        Queue<Integer> q = new PriorityQueue<Integer>();
+
+        q.offer(188);
+        q.offer(7);
+        q.offer(127);
+        q.offer(78);
+
+        for (int i : q) {
+            System.out.println(i);
+        }
+    }
+}
+

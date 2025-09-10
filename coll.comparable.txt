@@ -1,0 +1,52 @@
+package com.tns.collectiondemo;
+
+// demo for comparable interface
+public class Student implements Comparable<Student> {
+    int sid;
+    String name;
+    int age;
+
+    public Student(int sid, String name, int age) {
+        this.sid = sid;
+        this.name = name;
+        this.age = age;
+    }
+
+    @Override
+    public String toString() {
+        return "Student [sid=" + sid + ", name=" + name + ", age=" + age + "]";
+    }
+
+    @Override
+    public int compareTo(Student o) {
+        if (this.age == o.age)
+            return 1;
+        else if (this.age < o.age)
+            return -1;
+        else
+            return 0;
+    }
+}
+// below one is the main class
+package com.tns.collectiondemo;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class StudentMain {
+    public static void main(String[] args) {
+        ArrayList<Student> l = new ArrayList<Student>();
+
+        l.add(new Student(101, "Charitha", 23));
+        l.add(new Student(102, "Charvi", 24));
+        l.add(new Student(103, "Cherry", 21));
+        l.add(new Student(104, "Charan", 22));
+        l.add(new Student(105, "Chaitanya", 23));
+
+        Collections.sort(l);
+
+        for (Student s : l) {
+            System.out.println("The student data → " + s);
+        }
+    }
+}

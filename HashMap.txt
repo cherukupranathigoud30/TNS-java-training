@@ -1,0 +1,21 @@
+package com.tns.Mapdemo;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class MapDemo {
+
+    public static void main(String[] args) {
+
+        // HashMap - does not guarantee order
+        System.out.println("---- HashMap Demo ----");
+        Map<String, Integer> hashMap = new HashMap<>();
+        hashMap.put("DS", 65);
+        hashMap.put("AI", 59);
+        hashMap.put("CNS", 71);
+
+        for (Map.Entry<String, Integer> e : hashMap.entrySet()) {
+            System.out.println(e.getKey() + " : " + e.getValue());
+        }
+    }
+}
